@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NodeProp - Especializado em Soluções Digiatais</title>
+
+    <!-- Style.css -->
+    <link rel="stylesheet" href="./src/CSS/style.css" />
+
+    <!--Icones-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icone da Página-->
+    <link rel="icon" href="./src/assets/img/icon.png" />
+  </head>
+  <body>
+    <div class="header-nav">
+      <header class="container header">
+        <a href="index.html">
+          <h1 class="logo">NodeProp - Especializado em Soluções Digiatais</h1>
+        </a>
+        <button class="btn-menu" onclick="toggle()">
+          <i class="fa fa-bars fa-lg"></i>
+        </button>
+      </header>
+      <nav class="menu" id="menu">
+        <a href="#" class="btn-close" onclick="toggle()"
+          ><i class="fa fa-times"></i
+        ></a>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+
+          <li>
+            <a href="#">Clientes</a>
+          </li>
+
+          <li>
+            <a href="#">Serviços</a>
+          </li>
+
+          <li>
+            <a href="#">Blog</a>
+          </li>
+
+          <li>
+            <a href="#">Quem Somos</a>
+          </li>
+
+          <li>
+            <a href="#">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="banner container">
+      <div class="title">
+        <h2>OUSE INOVAR!</h2>
+        <h3>
+          Criamos experiências e estabelecemos ações estrategicas que conectam
+          marcas e consumidores
+        </h3>
+      </div>
+      <div class="buttons">
+        <button class="btn-register">
+          Cadastrar <i class="fa fa-arrow-circle-right"></i>
+        </button>
+        <button class="btn-about">
+          Sobre <i class="fa fa-question-circle"></i>
+        </button>
+      </div>
+    </div>
+    <main class="services">
+      <article class="service">
+        <a href="#">
+          <img
+            src="./src/assets/img/criacoes.jpg"
+            alt="Campanhas publicitárias"
+          />
+        </a>
+        <div class="inner">
+          <a href="#">Campanhas publicitárias</a>
+          <h4>Impressos, Vts e Jingles</h4>
+          <p>
+            Se você está precisando de criação de algum material em específico
+            de profissionais. Eles farão toda a campanha publicitária. Tv,
+            outdoor, folder, anúnciode empresa do mais alto padrão de qualidade.
+          </p>
+        </div>
+      </article>
+
+      <article class="service">
+        <a href="#">
+          <img src="./src/assets/img/md.jpg" alt="Markting Digital" />
+        </a>
+        <div class="inner">
+          <a href="#">Markting Digital</a>
+          <h4>Administração de redes sociais</h4>
+          <p>
+            Como agência de publicidade aplicamos estratégias nos meios digitais
+            para que seu negócio seja visto por milhões de usuários. O Brasil é
+            um dos países mais conectados do mundo, por este motivo, seu negócio
+            não pode ficar de fora do mercado digital.
+          </p>
+        </div>
+      </article>
+
+      <article class="service">
+        <a href="#">
+          <img src="./src/assets/img/cs.jpg" alt="Criação de sites" />
+        </a>
+        <div class="inner">
+          <a href="#">Criação de sites</a>
+          <h4>Sites administraveis</h4>
+          <p>
+            Agora você pode administrar seu site como quiser. Seu site
+            atualizado com seus últimos produtos e integrado com suas redes
+            sociais, agora é possível.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <section class="newsletter container">
+      <h2>Inscreva-se agora!</h2>
+      <h3>Receba novidades, dicas e muito mais!</h3>
+      <form action="#" method="POST">
+        <input type="email" placeholder="Seu email" name="email" />
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="#">
+          <i class="fa fa-facebook"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa fa-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa fa-google"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa fa-envelope"></i>
+        </a>
+      </div>
+      <p class="copyright">
+        Copyright © NodeProp 2023. Todos os direitos reservados.
+      </p>
+    </footer>
+    <script src="./src/JS/index.js"></script>
+  </body>
+</html>
