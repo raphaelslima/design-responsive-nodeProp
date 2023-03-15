@@ -91,10 +91,6 @@ header .btn-menu {
   padding: 1.5% 3%;
 }
 
-.menu ul li a:hover {
-  border: 1px solid #da6709;
-}
-
 .banner {
   background: url(../assets/img/bg.jpg) no-repeat fixed;
 }
