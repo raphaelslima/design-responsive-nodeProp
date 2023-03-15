@@ -93,6 +93,11 @@ header .btn-menu {
   font-size: 2em;
   color: #fff;
   padding: 1.5% 3%;
+  transition: 0.5s;
+}
+
+.menu ul li a:hover {
+  color: #da6709;
 }
 
 .banner {
@@ -379,5 +384,6 @@ main .service .inner p {
   .menu ul li a:hover {
     border: none;
     color: #da6709;
+    font-weight: 700;
   }
 }
